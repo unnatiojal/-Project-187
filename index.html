@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Project 187</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+        <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
+    
+    </head>
+    <body style="margin: 0px; overflow: hidden;">
+        <a-scene id="main-scene" vr-mode-ui="enabled: false" embedded arjs="sourceType: webcam; debugUIEnabled: false; trakingMethod:best; detectionMode: mono_and_matrix; matrixCodeType: 3x3;" 
+        gesture-detector 
+        powerpuff>
+            <a-entity id="camera" camera></a-entity>
+        
+            <a-assets>
+                <a-asset-item id="blossom-model" 
+                src="assets/blossom/scene.gltf"></a-asset-item>
+
+                <a-asset-item id="buttercup-model" 
+                src="assets/buttercup/scene.gltf"></a-asset-item>
+
+                <a-asset-item id="bubbles-model" 
+                src="assets/bubbles/scene.gltf"></a-asset-item>
+
+                <a-asset-item id="powerpuff-model" 
+                src="assets/powerpuff/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <a-marker id="blossom-marker" type="pattern" url="assets\blossom\pattern-blossom.patt" cursor="rayOrigin: mouse">
+                <a-entity id="blossom-3D-model" position="0 1 0" rotation="90 0 0" gltf-model="#blossom-model" scale="-100 -100 -100"
+                animation-mixer
+                gesture-handler></a-entity>
+            </a-marker>
+
+            <a-marker id="buttercup-marker" type="pattern" url="assets\buttercup\pattern-buttercup.patt" cursor="rayOrigin: mouse">
+                <a-entity id="buttercup" position="0 1 0" rotation="-90 0 0" gltf-model="#buttercup-model" scale="2 2 2"
+                animation-mixer
+                gesture-handler></a-entity>
+            </a-marker>
+
+            <a-marker id="bubbles-marker" type="pattern" url="assets\bubbles\pattern-bubbles.patt" cursor="rayOrigin: mouse">
+                <a-entity id="bubbles-3D-model" position="0 1 0" rotation="-90 0 0" gltf-model="#bubbles-model" scale="2 2 2"
+                animation-mixer
+                gesture-handler></a-entity>
+            </a-marker>
+
+            <a-entity id="powerpuff" position="0 -1 -4" rotation="-5 0 0" gltf-model="#powerpuff-model" scale="0.05 0.05 0.05"
+            animation-mixer></a-entity>
+
+            <a-plane id="message-text" position="0 -0.5 -3.2" rotation="0 0 0" width="0.6" height="0.1" color="#FFFFFF">
+                <a-entity text="font:monoid;value:powerpuff girls;align:center;width:1;color:#c2185b;"></a-entity>
+            </a-plane>
+
+        </a-scene>
+    </body>
+</html>

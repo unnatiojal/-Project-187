@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Powerpuff Girls
+* source:	https://sketchfab.com/3d-models/the-powerpuff-girls-c5256090103e41a69d54e916cd6c0741
+* author:	campqk120 (https://sketchfab.com/campqk120)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Powerpuff Girls" (https://sketchfab.com/3d-models/the-powerpuff-girls-c5256090103e41a69d54e916cd6c0741) by campqk120 (https://sketchfab.com/campqk120) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Buttercup
+* source:	https://sketchfab.com/3d-models/buttercup-3b3a34c184b142d9bdf46e99044e9a21
+* author:	Cucumber_Fan (https://sketchfab.com/Cucumber_Fan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Buttercup" (https://sketchfab.com/3d-models/buttercup-3b3a34c184b142d9bdf46e99044e9a21) by Cucumber_Fan (https://sketchfab.com/Cucumber_Fan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
